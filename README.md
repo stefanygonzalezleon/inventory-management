@@ -1,6 +1,8 @@
 # inventory-management
 CRUD, based on inventory management.
 
+![worker](img/home.png)
+
 ## Installation
 
 npm install
@@ -15,8 +17,8 @@ npm start
 * Bootstrap deployments.
 
 ## Author
-<p>
-  <img src="src/assets/worker.png" width="40" title="hover text">
+
+ <img src="img/worker.png" width="40">
 
  [@stefanygonzalezleon](https://www.github.com/stefanygonzalezleon)
-</p>
+

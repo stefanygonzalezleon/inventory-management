@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Light 300
+Light 300 Italic
+Regular 400 */
+
+body {
+  background-color: rgb(244, 244, 244);
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  margin-top: 22px;
+}
+
+.kTFsAJ {
+  position: fixed;
+}
+
+i {
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 12px;
+}
+
+.bg-light {
+  background-color: #3c3c40 !important;
+}
+
+.tableContainer {
+  background-color: white;
+  border-radius: 12px;
+  padding: 2%;
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+}
+
+.showcase {
+  background-color: #2b57c9a1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 211px;
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+}
+
+.showcase_img {
+  max-height: 296px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.addItem_btn {
+  background-color: #2d3456;
+  border-color: #2d3456;
+  box-shadow: 0px 6px 11px 0px rgb(42 39 39 / 20%);
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+}
+
+.stocks_showcase {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1%
+}
+
+.tips {
+  color: #383838;
+  display: flex;
+  padding: 16px;
+  margin-top: 2%;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 287px;
+  width: 399px;
+  box-shadow: 0px 3px 1px 0px rgb(0 0 0 / 20%);
+  background-color: #ffffff54;
+}
+
+.homeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stockMetrix {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  gap: 19px;
+  height: 145px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-bottom: 1%;
+}
+
+.stockltitle {
+  background-color: #ffffff;
+  opacity: 0.8;
+  background-image: linear-gradient(#3a50a1 1px, transparent 1px), linear-gradient(to right, #b3b4d3 1px, #e5e5f7 1px);
+  background-size: 20px 20px;
+  display: flex;
+  align-items: center;
+  padding: 11px 15px;
+  gap: 10px;
+  border-radius: 12px;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: -2px 1px 2px 0 rgb(0 0 0 / 20%);
+}
+
+.stockcount {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 11px 15px;
+  gap: 16px;
+  height: 145px;
+  background: #2b57c9a1;
+  border-radius: 12px;
+  flex-grow: 1;
+  overflow: hidden;
+  box-shadow: -2px 1px 2px 0 rgb(0 0 0 / 20%);
+  justify-content: center;
+}
+
+.GoodTeam {
+  max-height: 608px;
+}
+
+#pageSection {
+  display: grid;
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 800px) {
+  .stocks_showcase {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+    /* margin-top: 1%; */
+    justify-items: start;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .stocks_showcase {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    gap: 9%;
+
+  }
+
+  .homeContainer {
+    flex-direction: column;
+  }
+
+  .GoodTeam {
+    max-height: 378px;
+  }
+
+  .showcase {
+    padding: 4%;
+    justify-content: space-between;
+  }
+
+  #pageSection {
+    display: inline-block;
+  }
+
+  .stockMetrix {
+    margin-bottom: 3%;
+    height: auto;
+    gap: 12px;
+    flex-direction: column;
+  }
+
+  .tips {
+    height: 229px;
+    width: 373px;
+    padding: 5%
+  }
+}
